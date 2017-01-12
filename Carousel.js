@@ -16,6 +16,7 @@ var Carousel = React.createClass({
 
   getDefaultProps() {
     return {
+      scrollEnabled: true,
       hideIndicators: false,
       indicatorColor: '#000000',
       indicatorSize: 50,

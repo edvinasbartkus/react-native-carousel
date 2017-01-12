@@ -19,6 +19,7 @@ var CarouselPager = React.createClass({
 
   render() {
     return <ScrollView ref="scrollView"
+      scrollEnabled={this.props.scrollEnabled}
       contentContainerStyle={this.props.contentContainerStyle}
       automaticallyAdjustContentInsets={false}
       horizontal={true}
